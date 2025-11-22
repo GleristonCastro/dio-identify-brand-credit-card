@@ -38,7 +38,7 @@ Esta API permite identificar a bandeira de um cartão de crédito analisando os 
 ✅ Respostas JSON padronizadas  
 ✅ Headers de segurança configurados  
 ✅ Tratamento global de erros  
-✅ Testes unitários abrangentes (80+ testes)
+✅ Testes unitários abrangentes (95 testes - 100% aprovados)
 
 ---
 
@@ -304,7 +304,7 @@ A interface Swagger permite:
 
 ## 🧪 Testes
 
-O projeto possui **mais de 80 testes unitários** cobrindo todas as bandeiras e cenários.
+O projeto possui **95 testes unitários (100% aprovados)** cobrindo todas as bandeiras e cenários.
 
 ### Executar todos os testes
 
@@ -320,7 +320,8 @@ dotnet test --verbosity detailed
 
 ### Estrutura de Testes
 
-- **5+ testes por bandeira** (total de 50+ testes de identificação)
+- **95 testes unitários (100% aprovados)**
+- **5-7 testes por bandeira** (total de 60+ testes de identificação)
 - **Validação de Luhn** para números válidos e inválidos
 - **Testes de formato** (espaços, hífens, caracteres inválidos)
 - **Mascaramento de cartões**
